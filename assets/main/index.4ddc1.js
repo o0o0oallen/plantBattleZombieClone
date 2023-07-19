@@ -3524,11 +3524,11 @@ window.__require = function t(e, a, i) {
 					}
 					d.default.addBanner(t.BANNER), d.default.loadAll()
 				}, e.prototype.watchAd = function (t, e) {
-					void 0 === e && (e = ""), d.default.isRewardedVideoReady() ? d.default.showRewardedVideo().then(function () {
+					void 0 === e && (e = ""), t(!0) /*d.default.isRewardedVideoReady() ? d.default.showRewardedVideo().then(function () {
 						t(!0), console.log("facebook video watched")
 					}).catch(function (e) {
 						t(!1), console.log("facebook video fail", JSON.stringify(e.message))
-					}) : console.log("!FBAdManager.isRewardedVideoReady")
+					}) : console.log("!FBAdManager.isRewardedVideoReady")*/
 				}, e.prototype.showBannerad = function (t, e) {
 					void 0 === e && (e = null), d.default.isBannerReady() ? d.default.showBannerAsync().then(function () {
 						console.log("facebook banner success")
