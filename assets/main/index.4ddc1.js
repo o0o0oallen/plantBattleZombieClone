@@ -3223,7 +3223,7 @@ window.__require = function t(e, a, i) {
 					return t.call(this, e, i.BANNER, a, n) || this
 				}
 				return __extends(e, t), e.prototype.showAsync = function () {
-					return __awaiter(this, void 0, void 0, function () {
+					/*return __awaiter(this, void 0, void 0, function () {
 						var t;
 						return __generator(this, function (e) {
 							switch (e.label) {
@@ -3242,9 +3242,9 @@ window.__require = function t(e, a, i) {
 									return [2]
 							}
 						})
-					})
+					})*/
 				}, e.prototype.hideAsync = function () {
-					return __awaiter(this, void 0, void 0, function () {
+					/*return __awaiter(this, void 0, void 0, function () {
 						var t;
 						return __generator(this, function (e) {
 							switch (e.label) {
@@ -3261,7 +3261,7 @@ window.__require = function t(e, a, i) {
 									return [2]
 							}
 						})
-					})
+					})*/
 				}, e
 			}(b),
 			T = function () {
